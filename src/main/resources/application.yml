@@ -1,0 +1,10 @@
+server:
+  port: ${PORT:8084}
+
+service:
+  mock:
+    base-url: https://jsonplaceholder.typicode.com
+
+spring:
+  profiles:
+    active: docker
