@@ -1,3 +1,7 @@
 spring:
   main:
     banner-mode: "off"
+
+service:
+  kafka:
+    base-url: http://${SERVICE_HOST_KAFKA}:${SERVICE_PORT_KAFKA}

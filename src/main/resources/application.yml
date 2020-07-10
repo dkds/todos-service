@@ -4,7 +4,5 @@ server:
 service:
   mock:
     base-url: https://jsonplaceholder.typicode.com
-
-spring:
-  profiles:
-    active: docker
+  kafka:
+    base-url: http://127.0.0.1:9092
