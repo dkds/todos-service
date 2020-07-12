@@ -1,6 +1,12 @@
 server:
   port: ${PORT:8084}
 
+spring:
+  cloud:
+    consul:
+      host: localhost
+      port: 8500
+
 service:
   mock:
     base-url: https://jsonplaceholder.typicode.com

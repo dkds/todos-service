@@ -4,4 +4,4 @@ spring:
 
 service:
   kafka:
-    base-url: http://${SERVICE_HOST_KAFKA}:${SERVICE_PORT_KAFKA}
+    base-url: http://${SERVICE_LOCATION_KAFKA}
